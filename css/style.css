@@ -120,6 +120,22 @@ img{max-width:100%;display:block}
 	.project-card{grid-template-columns:360px 1fr}
 	.project-thumb{min-height:300px}
 }
+
+/* Enterprise section and case studies */
+.enterprise{padding:36px 0}
+.enterprise h2{margin-bottom:8px}
+.enterprise .lead{color:var(--muted);margin-bottom:12px}
+.enterprise-list{display:flex;flex-wrap:wrap;gap:12px;list-style:none;padding:0;margin:0}
+.enterprise-list li{background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);color:var(--muted)}
+
+.case-studies{padding:36px 0}
+.case-studies h2{margin-bottom:18px}
+.case-study{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.00));border:1px solid rgba(255,255,255,0.04);padding:18px;border-radius:12px;margin-bottom:16px}
+.case-study h3{margin:0 0 8px 0}
+.cs-block{margin-top:10px}
+.cs-block h4{margin:0 0 6px 0;font-size:.98rem}
+.cs-block ul{margin:6px 0 0 18px}
+.case-study ul li{margin-bottom:6px;color:var(--muted)}
 .value-card{text-align:left}
 .value-card i{display:inline-grid;place-items:center;width:44px;height:44px;border-radius:12px;background:rgba(56,189,248,.14);color:#8fe5ff;margin-bottom:12px}
 .skills-wrapper{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
